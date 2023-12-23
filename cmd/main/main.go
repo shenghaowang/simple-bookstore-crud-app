@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/shenghaowang/go-bookstore/pkg/routes"
+	"github.com/shenghaowang/simple-bookstore-crud-app/pkg/routes"
 	_ "gorm.io/driver/mysql"
 )
 

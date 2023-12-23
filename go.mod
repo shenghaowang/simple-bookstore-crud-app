@@ -1,4 +1,4 @@
-module github.com/shenghaowang/go-bookstore
+module github.com/shenghaowang/simple-bookstore-crud-app
 
 go 1.21.5
 
