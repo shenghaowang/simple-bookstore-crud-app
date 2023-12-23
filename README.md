@@ -1,6 +1,7 @@
 # Simple Bookstore CRUD App
 
-A mini golang project for demonstrating the CRUD operations of a book management system.
+A mini golang project for demonstrating the CRUD operations of a book management system. The project reproduces the app created by Mr. Akhil Sharma based on his [online tutorial](https://www.youtube.com/watch?v=1E_YycpCsXw&t=395s).
+
 
 ## MySQL Setup for Linux
 1. Install MYSQL locally with the following commands.
@@ -43,8 +44,8 @@ select Host, User from mysql.user;
 8. To fix the MySQL error: "Resolving the 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)' Error"
 https://phoenixnap.com/kb/mysql-server-through-socket-var-run-mysqld-mysqld-sock-2
 
-- Check the status of the MySQL service with `sudo systemctl status mysql`
-- If the service is not running, restart with `sudo systemctl start mysql`
+* Check the status of the MySQL service with `sudo systemctl status mysql`
+* If the service is not running, restart with `sudo systemctl start mysql`
 
 ## References
 * [How to Use MySQL Database in Go with GORM: A Step-by-Step Guide](https://www.sqliz.com/posts/golang-gorm-mysql/)
