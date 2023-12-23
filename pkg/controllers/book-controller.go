@@ -7,8 +7,8 @@ import (
 	"strconv"
 
 	"github.com/gorilla/mux"
-	"github.com/shenghaowang/go-bookstore/pkg/models"
-	"github.com/shenghaowang/go-bookstore/pkg/utils"
+	"github.com/shenghaowang/simple-bookstore-crud-app/pkg/models"
+	"github.com/shenghaowang/simple-bookstore-crud-app/pkg/utils"
 )
 
 var NewBook models.Book

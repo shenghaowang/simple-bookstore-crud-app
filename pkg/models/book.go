@@ -1,7 +1,7 @@
 package models
 
 import (
-	"github.com/shenghaowang/go-bookstore/pkg/config"
+	"github.com/shenghaowang/simple-bookstore-crud-app/pkg/config"
 	"gorm.io/gorm"
 )
 
