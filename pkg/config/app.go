@@ -10,6 +10,7 @@ var (
 )
 
 func Connect() {
+	// https://gorm.io/docs/connecting_to_the_database.html
 	dsn := "mysqluser:mysqlpwd@tcp(localhost:3306)/sandbox?charset=utf8mb4&parseTime=True&loc=Local"
 	d, err := gorm.Open(mysql.Open(dsn), &gorm.Config{})
 	if err != nil {
