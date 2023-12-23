@@ -1,4 +1,8 @@
-# MYSQL Setup for Linux
+# Simple Bookstore CRUD App
+
+A mini golang project for demonstrating the CRUD operations of a book management system.
+
+## MySQL Setup for Linux
 1. Install MYSQL locally with the following commands.
 ```
 sudo apt update
@@ -18,7 +22,7 @@ sudo mysqladmin -p -u sammy version
 create database sandbox;
 ```
 
-4. Create a user for using MYSQL.
+4. Create a user for using MySQL.
 ```
 CREATE USER 'mysqluser'@'localhost' IDENTIFIED BY 'mysqlpwd';
 ```
@@ -36,11 +40,11 @@ select Host, User from mysql.user;
 
 7. Exit mysql.
 
-8. To fix the MYSQL error: "Resolving the 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)' Error"
+8. To fix the MySQL error: "Resolving the 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)' Error"
 https://phoenixnap.com/kb/mysql-server-through-socket-var-run-mysqld-mysqld-sock-2
 
 - Check the status of the MySQL service with `sudo systemctl status mysql`
 - If the service is not running, restart with `sudo systemctl start mysql`
 
-# References
+## References
 * [How to Use MySQL Database in Go with GORM: A Step-by-Step Guide](https://www.sqliz.com/posts/golang-gorm-mysql/)
